@@ -2,29 +2,30 @@ package Board;
 
 public enum Squares {
     //FIRST ROW SET THE COORDS FOR THE REST OF THE BOARD
-    A1(SquareSize.SQUARESIZE.getSizeX() - SquareSize.SQUARESIZE.getSizeX(),
-            SquareSize.SQUARESIZE.getSizeY() - SquareSize.SQUARESIZE.getSizeY()),
+    A1(0,
+        0),
 
     A2(SquareSize.SQUARESIZE.getSizeX(),
-            SquareSize.SQUARESIZE.getSizeY() - SquareSize.SQUARESIZE.getSizeY()),
+        0),
 
     A3(SquareSize.SQUARESIZE.getSizeX() * 2,
-            SquareSize.SQUARESIZE.getSizeY() - SquareSize.SQUARESIZE.getSizeY()),
+        0),
 
     A4(SquareSize.SQUARESIZE.getSizeX() * 3,
-            SquareSize.SQUARESIZE.getSizeY() - SquareSize.SQUARESIZE.getSizeY()),
+        0),
 
     A5(SquareSize.SQUARESIZE.getSizeX() * 4,
-            SquareSize.SQUARESIZE.getSizeY() - SquareSize.SQUARESIZE.getSizeY()),
+        0),
 
     A6(SquareSize.SQUARESIZE.getSizeX() * 5
-            ,SquareSize.SQUARESIZE.getSizeY() - SquareSize.SQUARESIZE.getSizeY()),
+            , 0),
 
     A7(SquareSize.SQUARESIZE.getSizeX() * 6,
-            SquareSize.SQUARESIZE.getSizeY() - SquareSize.SQUARESIZE.getSizeY()),
+        0),
+
 
     A8(SquareSize.SQUARESIZE.getSizeX() * 7,
-            SquareSize.SQUARESIZE.getSizeY() - SquareSize.SQUARESIZE.getSizeY()),
+            0),
 
     B1(A1.getCoordX(),SquareSize.SQUARESIZE.getSizeY()),
     B2(A2.getCoordX(),SquareSize.SQUARESIZE.getSizeY()),
